@@ -1,6 +1,5 @@
 /* eslint-disable prettier/prettier */
 import { Body, Controller, Delete, Query, Get, HttpStatus, Param, Post, Put, Res } from "@nestjs/common";
-// import { response } from "express";
 import { Todo } from "./model/todo.schema";
 import { TodoService } from "./service/todo.service";
 
