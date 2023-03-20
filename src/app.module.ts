@@ -3,8 +3,6 @@ import { Module, MiddlewareConsumer } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 ConfigModule.forRoot()
 import { isAuthenticated } from './app.middleware';
-// import { AppController } from './app.controller';
-// import { AppService } from './app.service';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { JwtModule } from '@nestjs/jwt';
